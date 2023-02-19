@@ -34,8 +34,6 @@ public class Main {
             }
             parseOperation(args[1]);
             parseOperands(args[0], args[2]);
-
-            return true;
         }
 
         private void parseOperands(String arg1, String arg2) {
